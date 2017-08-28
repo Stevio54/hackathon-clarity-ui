@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+#toaster-container,
+#toast-container {
+    margin: 0 auto !important;
+    position: relative !important;
+    width: 100% !important;
+    left: 1% !important;
+}
+
+#toaster-container .toast,
+#toast-container .toast {
+    width: 98%;
+    left: 1px !important;
+    margin-bottom: 5px !important;
+}
+
+.content-area {
+    width: 80%;
+    margin: 0 auto;
+    border-color: solid 1px black;
+}
+
+html,
+body,
+.card-block {
+    height: 100% !important;
+}
